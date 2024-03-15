@@ -1,6 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://dwaynemcyrus.com/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'banyan'
 
 [[menus.main]]
 name = 'Home'
