@@ -1,6 +1,6 @@
-baseURL = 'https://dwaynemcyrus.com/'
+baseURL = 'https://dwaynemcyrus.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'DMC New Hugo Site'
 theme = 'banyan'
 
 [[menus.main]]
