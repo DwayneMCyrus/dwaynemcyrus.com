@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Theme My New Hugo Site'
+theme = 'banyan'
 
 [[menus.main]]
 name = 'Home'
