@@ -1,4 +1,3 @@
 baseURL = 'https://example.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site Default'
-theme = 'banyan'
+title = 'My New Hugo Site'
