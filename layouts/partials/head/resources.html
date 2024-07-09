@@ -1,0 +1,47 @@
+
+{{ range .Site.Params.customcss }}
+    <link rel="stylesheet" href="{{ . | relURL }}">
+{{- end }}
+
+{{ range .Site.Params.customjs }}
+    <script type="text/javascript" src="{{ . | relURL }}"></script>
+{{- end }}
+
+{{ range $elem := .Site.Params.customjscssraw }}
+    {{ $elem | safeHTML }}
+{{- end }}
+
+
+
+<!-- {{ $css_normalize := "/css/modern-normalize.css" | absURL }}
+<link rel="stylesheet" href="{{ $css_normalize }}" />
+
+{{ $css_reset := "/css/tailwind-reset.css" | absURL }}
+<link rel="stylesheet" href="{{ $css_reset }}" />
+
+{{ $css_noclass := "/css/no-class.css" | absURL }}
+<link rel="stylesheet" href="{{ $css_noclass }}" /> -->
+
+
+
+
+<!-- {{ $css_typography := "/css/typography.css" | absURL }}
+<link rel="stylesheet" href="{{ $css_typography }}" /> -->
+
+
+
+
+
+<!-- OLD to REVIEW -->
+<!-- {{ $css_normalize := "/css/normalize.css" | absURL }}
+<link rel="stylesheet" href="{{ $css_normalize }}" />
+<link rel="stylesheet" href="/css/nav_prime.css" />
+<link rel="stylesheet" href="/css/typography.css" />
+<link rel="stylesheet" href="/css/links_bttns.css" />
+
+
+
+
+<link rel="stylesheet" href="/css/image.css" />
+<link rel="stylesheet" href="/css/effects.css" />
+<link rel="stylesheet" href="/css/page_label.css" /> -->

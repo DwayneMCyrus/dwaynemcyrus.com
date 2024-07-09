@@ -1,0 +1,23 @@
+
+
+{{ define "title" }}
+  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
+  {{ .Title }} – {{ .Site.Title }}
+{{ end }}
+
+
+
+{{ define "main" }}
+<code>Layout: _default/list.html</code>
+<main aria-role="main">
+
+  <div class="main-content">
+    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+    {{.Content}}
+  </div>
+  <div>
+    <!-- Note that .Data.Pages is the equivalent of .Site.Pages on the homepage template. -->
+    {{ range first 10 .Data.Pages }} {{ .Render "summary"}} {{ end }}
+  </div>
+</main>
+{{ end }}

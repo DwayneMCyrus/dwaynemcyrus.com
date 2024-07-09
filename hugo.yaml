@@ -1,0 +1,65 @@
+theme: 
+themesDir: 
+
+
+
+baseURL: https://dwaynemcyrus.com/
+
+
+
+languageCode: en-us
+sectionPagesMenu: lazyBloggerMenu
+enableEmoji: true
+paginate: 6
+
+
+
+title: DM Cyrus
+defaultAuthor: Dwayne M. Cyrus
+
+
+params:
+  customcss:
+    - css/modern-normalize.css
+    - css/tailwind-reset.css
+    - /css/no-class.css
+    - css/forms.css
+  customjs:
+    - js/xx.js
+
+
+services:
+  disqus:
+    shortname: ""
+  googleAnalytics:
+    id: ""
+  instagram:
+    accessToken: ""
+    disableInlineCSS: false
+  rss:
+    limit: -1
+  twitter:
+    disableInlineCSS: false
+
+
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youTube:
+    disable: false
+    privacyEnhanced: false

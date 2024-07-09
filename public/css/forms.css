@@ -1,0 +1,33 @@
+/**
+ * Forms
+ * ----------------------------------------------
+*/
+.form-newsletter {
+    /* margin: 1rem 2rem 1rem 2rem; */
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    /* padding: 1rem 0rem; */
+  
+  }
+  .form-newsletter-input > iframe {
+    width: 100%;
+    height: 52px;
+    height: 104px;
+    /* height: fit-content; */
+    max-width: 32rem;
+  }
+  .form-newsletter-input + p {
+    /* margin: 0.5rem 0 1rem 0; */
+    /* font-size: 0.9rem; */
+    margin: 0;
+      padding: 0.75rem 0 0 0.25rem;
+      font-size: 0.85rem;
+  }
+
+  .form-newsletter-input > iframe form {
+    border-color: red !important;
+  }
+
+  form.kCBlCv {
+    flex-direction: column;
+    background-color: red;
+  }

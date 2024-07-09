@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default " en" }}" dir="ltr">
+
+
+  <head>
+    {{ block "head" . }}
+      {{ partial "head/meta.html" . }}
+      {{ partial "head/title.html" . }}
+      {{ partial "head/favicon.html" . }}
+      {{ partial "head/twitterCard.html" . }}
+      {{ partial "head/analytics.html" . }}
+      {{ partial "head/fonts.html" . }}
+      {{ partial "head/resources.html" . }}
+    {{ end }}
+
+  </head>
+
+
+  <body>
+    {{ block "header" . }}
+    {{ end }}
+    <!-- Code that all your templates share, like a header -->
+    {{ block "main" . }}
+    
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+  </body>
+</html>
