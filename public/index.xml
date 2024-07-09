@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Surviving is Never be Enough! on DM Cyrus</title>
-    <link>http://localhost:1313/</link>
+    <link>//--gc:1313/</link>
     <description>Recent content in Surviving is Never be Enough! on DM Cyrus</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//--gc:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Before you get in!</title>
-      <link>http://localhost:1313/subscriber-reminder/</link>
+      <title>Before You Forget</title>
+      <link>//--gc:1313/reminder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/subscriber-reminder/</guid>
+      <guid>//--gc:1313/reminder/</guid>
       <description>Confirm your subscription now and receive a Free 8-Minute book to make your life better.&#xA;Your journey to emotional sovereignty starts here. Confirming your subscriptions unlocks exclusive access to my free eBook, designed to get you in the game of power.&#xA;&amp;ldquo;Inner battle for outer peace.&amp;rdquo; – Cyrus</description>
     </item>
   </channel>

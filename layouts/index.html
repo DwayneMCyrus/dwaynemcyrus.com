@@ -1,5 +1,5 @@
 {{ define "header" }}
-<code>Layout: index.html</code>
+<code class="layout-text">Layout: index.html</code>
 <header class="header">
   <!-- <h1 class="hidden-title-seo">{{ .Params.titleSEO}}</h1>
   {{ with .Params.kicker }}
@@ -10,15 +10,16 @@
   <span class="subtitle">{{.}}</span>
   {{ end }} -->
 
-  <p>Unlock Your Potential for Personal and Professional Growth</p>
-  <h3>Achieve Emotional Mastery: Transform Stress into Strength</h3>
-  <p>
-    Join
-    <!-- 1'200+ -->
-    ambitious achievers getting in-depth insights, framework breakdowns, and
-    practical strategies 6 days a week.
-  </p>
+
   <div class="form-newsletter">
+    <p class="kicker">Unlock Your Potential for Growth</p>
+    <h3>Achieve Emotional Mastery: Transform Stress into Strength</h3>
+    <p> 
+      Join
+      <!-- 1'200+ -->
+      ambitious achievers getting in-depth insights, framework breakdowns, and
+      practical strategies 6 days a week.
+    </p>
     {{ partial "forms/newsletter-subscribe.html" . }}
 
   </div>
@@ -31,6 +32,7 @@
   <div class="main-content">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
+
   </div>
   <div>
     <!-- Note that .Data.Pages is the equivalent of .Site.Pages on the homepage template. -->
@@ -41,5 +43,5 @@
 {{ end }}
 
 {{ define "footer" }}
-<p><a href="/subscriber-reminder">Reminder Page</a></p>
+<p><a href="/reminder">Reminder Page</a></p>
 {{ end }}

@@ -20,12 +20,13 @@ defaultAuthor: Dwayne M. Cyrus
 
 params:
   customcss:
-    - css/modern-normalize.css
-    - css/tailwind-reset.css
-    - /css/no-class.css
-    - css/forms.css
+    - css/reset.css
+    - css/noclass.css
+    # - css/type.css
+    # - css/layout.css
+    # - css/forms.css
   customjs:
-    - js/xx.js
+    # - js/xx.js
 
 
 services:

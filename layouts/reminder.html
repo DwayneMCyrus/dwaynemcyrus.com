@@ -1,0 +1,20 @@
+{{ define "header" }}
+<code class="layout-text">Layout: subscriber-reminder.html</code>
+<header class="header">
+  <h1 class="hidden-title-seo">{{ .Params.titleSEO}}</h1>
+</header>
+{{ end }} 
+
+{{ define "main" }}
+<main aria-role="main">
+  <h1>Hey</h1>
+  <div class="reminder">
+    {{ with .Params.kicker }}
+    <span class="kicker">{{.}}</span>
+    {{ end }}
+    <h3>{{ .Title }}</h3>
+    {{.Content}}
+  </div>
+</main>
+
+{{ end }}
