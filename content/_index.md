@@ -5,7 +5,9 @@ titleSEO: Welcome to the offical website of Dwayne M. Cyrus.
 subtitle: 
 ---
 
-<!-- I found inspiration for this design in a voice—that of world-renowned broadcaster and naturalist Sir David Attenborough.
+<!-- ## The Font of Magic
+
+I found inspiration for this design in a voice—that of world-renowned broadcaster and naturalist Sir David Attenborough.
 
 When I was young my paper route led past the pond where Attenborough discovered his fascination with the natural world, and, like so many other Britons, I grew up with Attenborough’s natural-history programs. His gentle, measured diction became a key part of family life and an indelible part of the fabric of British society and culture.
 

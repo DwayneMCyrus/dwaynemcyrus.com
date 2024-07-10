@@ -18,17 +18,27 @@
 
 
   <body>
+    <section>
+      <div class="page-wrapper">
+        <header class="page-header">
     {{ block "header" . }}
     {{ end }}
+  </header>
+  <main class="page-main" aria-role="main">
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}
     
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
+  </main>
+  <footer class="page-footer">
     {{ block "footer" . }}
+    <p><a href="/reminder">Reminder Page</a></p>
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-    DM Cyrus LLC
-    Privacy Policy | Add the other from Welsh
+    <p class="legal-stuff"><span>© 2024 DM Cyrus LLC</span></span><a href="#">Privacy Policy</a> | <a href="#">Fulfillment Policy</a> | <a href="#">Contact</a></span></p>
     {{ end }}
+  </footer>
+  </div>
+  </section>
   </body>
 </html>
