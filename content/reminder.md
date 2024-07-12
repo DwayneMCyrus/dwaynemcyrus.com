@@ -7,8 +7,8 @@ titleSEO: Emotional Mastery Subscriber Reminder to Confirm
 subtitle: 
 ---
 
-Confirm your subscription now and receive a **Free 6-Minute** book to better handle your emotions.
+Confirm your subscription now and receive this month's **Free 6-Minute** book to better handle your emotions.
 
-Your journey to emotional sovereignty starts here. Confirming your subscriptions unlocks exclusive access to my free eBook, designed to get you in the game of power.
+Your journey to emotional sovereignty starts here. Confirming your email address unlocks the next step in recieving exclusive access to **this month's** free book.
 
 *"Inner battle for outer peace."* – Cyrus

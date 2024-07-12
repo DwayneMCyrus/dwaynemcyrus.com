@@ -9,5 +9,7 @@
     <loc>http://192.168.1.37:1313/</loc>
   </url><url>
     <loc>http://192.168.1.37:1313/tags/</loc>
+  </url><url>
+    <loc>http://192.168.1.37:1313/verify/</loc>
   </url>
 </urlset>

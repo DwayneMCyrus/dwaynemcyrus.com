@@ -17,6 +17,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #FFF6E8;
+    background-color: #ACACAC;
     background-color: #F7F7F7;
     background-color: #FFF6E8;
     background-color: #FDBF1E;
@@ -186,36 +187,37 @@ a:active {
  padding: 0 0 1em 0;
  margin: 0px 24px 8px;
  /* text-align: center; */
+ color: #ACACAC;
 }
 .legal-stuff span:last-of-type {
  display: block;
 }
 .legal-stuff a:link {
-    color: #FFF6E8;
+    color: #ACACAC;
     text-decoration: none;
 
 }
 .legal-stuff a:link::before {
-    color: #FFF6E8;
+    color: #ACACAC;
     text-decoration: none;
     content: none;
     /* background-color: none; */
 }
 .legal-stuff a:visited {
-    color: #FFF6E8;
+    color: #ACACAC;
 }
 .legal-stuff a:focus {
-    color: #FFF6E8;
+    color: #ACACAC;
     text-decoration-line: overline;
     text-decoration-color: #FDBF1E;
 }
 .legal-stuff a:hover {
-    color: #FFF6E8;
+    color: #ACACAC;
     text-decoration-line: underline;
     text-decoration-color: #FDBF1E;
 }
 .legal-stuff a:active {
-    color: #FFF6E8;
+    color: #ACACAC;
     text-decoration-line: overline;
     text-decoration-color: #FDBF1E;
 }
@@ -269,12 +271,12 @@ div.ml-form-embedBody {
   } */
 
   #mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
-    /* background-color: #F75C03 !important; */
-    background-color: #FDBF1E !important;
+    background-color: #F75C03 !important;
+    /* background-color: #FDBF1E !important; */
   }  
   #mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
-    /* background-color: #FDBF1E !important; */
-    background-color: #F75C03 !important;
+    background-color: #FDBF1E !important;
+    /* background-color: #F75C03 !important; */
   }
 
 .form-policy-notice {
