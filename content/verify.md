@@ -9,6 +9,6 @@ subtitle:
 
 I need to ensure that you want this—and that you're ready.
 
-Head over to your email inbox and be sure to read the email for the instructions, simple as that. Promise you, it is **the last step** of your initiation into the fold.
+Head over to your email inbox and be sure to read the email for the instructions, simple as that. Word, it's **the last step**.
 
 Now go get this month's resource pack.
