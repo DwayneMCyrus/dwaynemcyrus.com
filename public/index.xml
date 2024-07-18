@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Surviving is Never be Enough! on Dwayne M. Cyrus</title>
-    <link>http://192.168.1.37:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Surviving is Never be Enough! on Dwayne M. Cyrus</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://192.168.1.37:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Before You Forget</title>
-      <link>http://192.168.1.37:1313/reminder/</link>
+      <link>http://localhost:1313/reminder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.37:1313/reminder/</guid>
+      <guid>http://localhost:1313/reminder/</guid>
       <description>Confirm your subscription now and receive this month&amp;rsquo;s Free 6-Minute book to better handle your emotions.&#xA;Your journey to emotional sovereignty starts here. Confirming your email address unlocks the next step in recieving exclusive access to this month&amp;rsquo;s free book.&#xA;&amp;ldquo;Inner battle for outer peace.&amp;rdquo; – Cyrus</description>
     </item>
     <item>
       <title>Yes, There&#39;s One More Step</title>
-      <link>http://192.168.1.37:1313/verify/</link>
+      <link>http://localhost:1313/verify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.37:1313/verify/</guid>
-      <description>I need to ensure that you want this—and that you&amp;rsquo;re ready.&#xA;Head over to your email inbox and be sure to read the email for the instructions, simple as that. Promise you, it is the last step of your initiation into the fold.&#xA;Now go get this month&amp;rsquo;s resource pack.&#xA;Hey {$name},&#xA;It&amp;rsquo;s Cyrus—there&amp;rsquo;s one more task to complete before you receive this months mini book.&#xA;You are receiving this because you signed up for the Emotional Mastery newsletter.</description>
+      <guid>http://localhost:1313/verify/</guid>
+      <description>I need to ensure that you want this—and that you&amp;rsquo;re ready.&#xA;Head over to your email inbox and be sure to read the email for the instructions, simple as that. Word, it&amp;rsquo;s the last step.&#xA;Now go get this month&amp;rsquo;s resource pack.</description>
     </item>
   </channel>
 </rss>
