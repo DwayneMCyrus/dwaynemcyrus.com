@@ -21,8 +21,9 @@
     4. Improve text rendering
   */
 body {
-  line-height: 1.4;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  padding: 0 24px; /* NOTE Temporary for the side margins for icons that are fixed. */
 }
 /*
     5. Improve media defaults
@@ -87,6 +88,7 @@ body {
   color: #fff6e8;
   color: #1b2021;
   color: #000000;
+  color: #28282B; /* Matte Black */
   background-color: #acacac;
   background-color: #f7f7f7;
   background-color: #fff6e8;
@@ -130,21 +132,41 @@ h3 {
 
 p {
   /* padding: 0 0 1em; */
-  line-height: 1.8;
+  /* line-height: 1.5; */
   font-weight: 400;
   margin: 1.35em 24px;
   max-width: 480px;
 }
 
+/* NOTE: This is to customize striked text. */
+del {
+    text-decoration-color: #0EB1D2;
+    /* text-decoration-color: #28282B; */
+    text-decoration: red;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 1.5px;
+    text-decoration-style: solid;
+    color: red;
+}
+
 a {
-  text-decoration: none;
+  text-decoration-color: #0EB1D2;
+  text-decoration-color: #28282B;
+  text-decoration: #28282B;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 1.5px;
+  text-decoration-style: solid;
+  /* text-decoration-style: wavy; */
+  text-decoration-skip-ink: auto;
   /* color: #18272F; */
+  /* color: #4059AD; */
+  /* color: #0EB1D2; */
   /* font-weight: 700; */
   position: relative;
 }
 
 /* Hover effect to try */
-a:link::before {
+/* a:link::before {
   content: "";
   background-color: hsla(43, 98%, 55%, 0.75);
 
@@ -155,47 +177,51 @@ a:link::before {
   height: 1px;
   z-index: -1;
   transition: all 0.3s ease-in-out;
-}
+} */
 
 a:link {
-  color: #fff6e8;
-  text-decoration-color: #fdbf1e;
+  /* color: #fff6e8; */
+  /* text-decoration-color: #fdbf1e; */
   /* text-decoration: underline; */
 }
 
 a:visited {
-  color: #fff6e8;
-  text-decoration-color: #fdbf1e;
+    color: #28282B;
+  /* color: #fff6e8; */
+  /* text-decoration-color: #fdbf1e; */
 }
 
 a:focus {
+    color: #28282B;
   /* color: #F75C03; */
-  color: greenyellow;
-  color: #fff6e8;
-  text-decoration-line: overline;
+  /* color: greenyellow; */
+  /* color: #fff6e8; */
+  /* text-decoration-line: overline; */
   /* text-decoration-line: underline; */
 }
 
 a:hover {
-  color: #f75c03;
-  color: #fdbf1e;
-  color: #f7f7f7;
-  text-decoration: none;
+    color: #28282B;
+  /* color: #f75c03; */
+  /* color: #fdbf1e; */
+  /* color: #f7f7f7; */
+  /* text-decoration: none; */
 }
 
 /* Hover effect to try */
-a:hover::before {
+/* a:hover::before {
   bottom: 0;
   height: 100%;
-}
+} */
 
 a:active {
-  color: #f75c03;
-  color: #7f2ccb;
-  color: #fdbf1e;
-  color: #fff6e8;
+    color: #28282B;
+  /* color: #f75c03; */
+  /* color: #7f2ccb; */
+  /* color: #fdbf1e; */
+  /* color: #fff6e8; */
   /* text-decoration: none; */
-  text-decoration-line: overline;
+  /* text-decoration-line: overline; */
 }
 
 code {
@@ -207,12 +233,16 @@ code {
 /* CLASS STUFF */
 
 .body-inner {
-    height: 100%; /*sticky footer*/
+    /* height: 100%;  */
+    /*sticky footer*/
 }
 .content-wrapper {
   min-height: 100%; /*sticky footer*/
   display: grid; /*sticky footer*/
   grid-template-rows: auto 1fr auto;
+  padding: 0 24px;
+  padding: 0 32px;
+  padding: 0 8px;
 }
 
 .kicker {

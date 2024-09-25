@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+permalink: /about
+---
 *This is an about page.*
 
 Feel free to tell the world about what you love! 😍
@@ -8,4 +13,4 @@ I'm just updating this file to see if regeneration keeps going in my terminal.
 
 This is my second attempt testing the terminal regeneration.
 
-[[dragons]]
+[[dragons]] [[cats]]
