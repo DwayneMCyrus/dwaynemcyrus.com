@@ -1,16 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% feed_meta %}
-    {% seo %}
-  </head>
+<!DOCTYPE html>
+<html lang="en" dir=""ltr">
+  {% include head.html %}
   <body>
-    {% include navigation.html %}
-    {{ content }}
 
+    <!-- <nav>{% include nav.html %} // {% include navigation.html %} </nav> -->
+    <div class="content-wrapper">
+      <header>
+       
+      </header>
+      <aside></aside>
+      <main>
+        <!-- <code>Layout: _layouts/default.html</code> -->
+        <!-- <hr> -->
+        {{ content }}</main>
+      <aside></aside>
+      <footer>
+        <hr>
+        {% include footer.html %}</footer>
+    <!-- </div> -->
     {% include link-previews.html wrapperQuerySelector="content" %}
   </body>
 </html>

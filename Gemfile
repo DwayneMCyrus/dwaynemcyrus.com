@@ -13,3 +13,8 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
 end
+
+gem "nokogiri"
+
+# This you may not really need especially since you don't get what it actually does. 
+# gem "webrick"

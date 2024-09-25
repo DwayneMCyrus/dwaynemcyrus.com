@@ -1,0 +1,362 @@
+/* BROWSER RESET STUFF */
+/* Credit: https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+    8. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* ********************************************************** */
+/* NO CLASS STUFF */
+
+* {
+  box-sizing: inherit; /*sticky footer*/
+}
+html {
+  height: 100%; /*sticky footer*/
+  box-sizing: border-box; /*sticky footer*/
+  color: black;
+  font-family: sans-serif;
+}
+body {
+  height: 100%; /*sticky footer*/
+
+  /* 300 Book 400 Regular 500 Medium 700 Bold 800 Black */
+  font-family: "Atten New", "Helvetica", "Arial", sans-serif;
+  font-weight: 400; 
+  font-size: 16px;
+  font-size: 15px;
+  color: #fff6e8;
+  color: #1b2021;
+  /* color: #000000; */
+  background-color: #acacac;
+  background-color: #f7f7f7;
+  background-color: #fff6e8;
+  background-color: #fdbf1e;
+  background-color: #f75c03;
+  background-color: #7f2ccb;
+  background-color: #30343f;
+  background-color: #1b2021; /* USe this as a background darkmode */
+  background-color: #eeeade; /* */
+  background-color: #fff6e8; /* Use this as a background light mode */
+  /* background-color: #FFFFFF; */
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 576px;
+  /* max-width: 504px; */
+}
+
+footer {
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 0px 24px 8px;
+  line-height: 1.25;
+}
+h3 {
+  font-size: 24px;
+  margin: 0px 24px 8px;
+  line-height: 1.25;
+}
+
+p {
+  /* padding: 0 0 1em; */
+  line-height: 1.8;
+  font-weight: 400;
+  margin: 1.35em 24px;
+  max-width: 480px;
+}
+
+a {
+  text-decoration: none;
+  /* color: #18272F; */
+  /* font-weight: 700; */
+  position: relative;
+}
+
+/* Hover effect to try */
+a:link::before {
+  content: "";
+  background-color: hsla(43, 98%, 55%, 0.75);
+
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 1px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+a:link {
+  color: #fff6e8;
+  text-decoration-color: #fdbf1e;
+  /* text-decoration: underline; */
+}
+
+a:visited {
+  color: #fff6e8;
+  text-decoration-color: #fdbf1e;
+}
+
+a:focus {
+  /* color: #F75C03; */
+  color: greenyellow;
+  color: #fff6e8;
+  text-decoration-line: overline;
+  /* text-decoration-line: underline; */
+}
+
+a:hover {
+  color: #f75c03;
+  color: #fdbf1e;
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+/* Hover effect to try */
+a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+a:active {
+  color: #f75c03;
+  color: #7f2ccb;
+  color: #fdbf1e;
+  color: #fff6e8;
+  /* text-decoration: none; */
+  text-decoration-line: overline;
+}
+
+code {
+  font-family: "Overpass Mono", monospace;
+  /* font-size: 15px; */
+}
+
+/* ********************************************************** */
+/* CLASS STUFF */
+
+.body-inner {
+    height: 100%; /*sticky footer*/
+}
+.content-wrapper {
+  min-height: 100%; /*sticky footer*/
+  display: grid; /*sticky footer*/
+  grid-template-rows: auto 1fr auto;
+}
+
+.kicker {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 0 0px;
+  margin: 0 24px 0;
+}
+
+.form-newsletter .kicker,
+.reminder .kicker {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 0 0px;
+  margin: 0 24px 0;
+}
+
+.form-newsletter h3,
+.reminder h3 {
+  font-size: 24px;
+  margin: 0px 24px 8px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.form-newsletter h3 + p,
+.reminder h3 + p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 24px;
+  padding: 0 0 12px 0;
+  padding: 0 0 1em 0;
+  line-height: 1.5;
+  /* background-color: #F75C03; */
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.legal-stuff {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 0 1em 0;
+  margin: 0px 24px 8px;
+  /* text-align: center; */
+  color: #acacac;
+}
+.legal-stuff span:last-of-type {
+  display: block;
+}
+.legal-stuff a:link {
+  color: #acacac;
+  text-decoration: none;
+}
+.legal-stuff a:link::before {
+  color: #acacac;
+  text-decoration: none;
+  content: none;
+  /* background-color: none; */
+}
+.legal-stuff a:visited {
+  color: #acacac;
+}
+.legal-stuff a:focus {
+  color: #acacac;
+  text-decoration-line: overline;
+  text-decoration-color: #fdbf1e;
+}
+.legal-stuff a:hover {
+  color: #acacac;
+  text-decoration-line: underline;
+  text-decoration-color: #fdbf1e;
+}
+.legal-stuff a:active {
+  color: #acacac;
+  text-decoration-line: overline;
+  text-decoration-color: #fdbf1e;
+}
+
+/* Newsletter Form for MailerLite??? TODO CHECK WHO THIS IS FOR! */
+.form-newsletter,
+.reminder {
+    /* margin: 1rem 2rem 1rem 2rem; */
+    margin: 48px 24px 48px 24px ;
+    /* padding: 1rem 0rem; */
+    max-width: 460px;
+  }
+
+div.ml-form-embedBody {
+    background-color: #F7F7F7;
+    background-color: #FFF6E8;
+    background-color: #FDBF1E;
+    background-color: #F75C03;
+    background-color: #7F2CCB;
+    background-color: #30343F;
+    /* background-color: #1B2021; */
+}
+.ml-form-embedBody {
+    padding: 0 24px 24px 24px !important;
+}
+.ml-block-form .ml-form-formContent {
+    margin: 0 0 10px 0;
+}
+#mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent {
+    margin: 0 0 10px 0 !important;
+}
+
+
+#mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input,
+#mlb2-16511123.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+    background-color: #FFF6E8 !important;
+    color: #30343F !important;
+}
+
+#mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input,
+#mlb2-16511123.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+    font-size: 16px !important; /* prevents auto zoom on mobile, anything below 16px font-size forces auto zoom for input fields */
+}
+
+#mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+    margin: 0 0 10px 0 !important;
+}
+/* #mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+    background-color: #F75C03 !important;
+    border-color: #FDBF1E !important;
+  } */
+
+  #mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button,
+  #mlb2-16511123.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+    background-color: #F75C03 !important;
+    /* background-color: #FDBF1E !important; */
+  }  
+  #mlb2-16231925.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover,
+  #mlb2-16511123.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
+    background-color: #FDBF1E !important;
+    /* background-color: #F75C03 !important; */
+  }
+
+.form-policy-notice {
+ padding: 0 1.5em;
+ margin: 0;
+ font-size: 12px;
+ line-height: 1.3;
+}
