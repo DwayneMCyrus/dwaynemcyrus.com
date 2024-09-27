@@ -4,9 +4,7 @@ title: Confirmation Success
 permalink: /confirmation-success
 kicker: You even human?
 ---
-Let’s finish what we started.
-
-Now that you have completed step 1 of 2 by confirming your email address you are now onto the final step, The Q5.
+Now that you have completed step 1 of 2 by confirming your email address you are now onto the final step, *The Q5*.
 
 Head on over to your email inbox where you will find a new email from me with the subject “[Action 2/2 Required] Your Q5 Application”. 
 
@@ -16,4 +14,4 @@ Remember, this is an investment in your life, not mine so make the effort—you 
 
 Now go put the work in.
 
-*"Inner battle for outer peace."* – Cyrus
+*"Surviving will never be enough."* – Cyrus
