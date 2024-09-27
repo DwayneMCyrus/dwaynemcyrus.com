@@ -1,0 +1,26 @@
+<!-- This document is meant to be deleted when it is complete the layouts. -->
+<!DOCTYPE html>
+<html lang="en" dir=""ltr">
+  {% include head.html %}
+  <body>
+
+    <!-- <nav>{% include nav.html %} // {% include navigation.html %} </nav> -->
+        <!-- Might need a wrapping <div> that is set to height 100% for the sticky footer to work. -->
+      <!-- <div class="body-inner"> -->
+    <div class="content-wrapper">
+      <header>
+       
+      </header>
+      <aside></aside>
+      <main>
+        <!-- <code>Layout: _layouts/default.html</code> -->
+        <!-- <hr> -->
+        {{ content }}</main>
+      <aside></aside>
+      <footer>
+        <hr>
+        {% include footer.html %}</footer>
+    <!-- </div> -->
+    {% include link-previews.html wrapperQuerySelector="content" %}
+  </body>
+</html>

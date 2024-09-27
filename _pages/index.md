@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Home
 permalink: /
 my_number: 5
@@ -16,6 +16,8 @@ This is the work—uncovering your emotional blocks, developing resilience, and 
 
 I only work with a small number of committed clients who are ready to face their pain and transform their lives. Because of this, space is always limited and only offered to those on the waitlist.
 
-Take the next step—whether you are a man breaking free from emotional neglect and redefining how you lead and love, or a woman releasing the pressures of holding everything together and setting boundaries that honour who you truly are—the journey is yours to take.
+Take the next step—whether you are a man breaking free from emotional neglect and redefining how you lead and love, or a woman releasing the pressures of holding everything together and setting boundaries that honour who you truly are. 
 
-[[Letters of Endurance|Join fellow Voyagers]] for access to the newsletter and waitlist—be one of the first to know when mentorship spots become available.
+The journey is yours to take.
+
+[[waitlist|Join fellow Voyagers]] for access to the newsletter waitlist and be of the first to know when mentorship spots become available.

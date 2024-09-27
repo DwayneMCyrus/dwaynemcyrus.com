@@ -82,13 +82,15 @@ body {
 
   /* 300 Book 400 Regular 500 Medium 700 Bold 800 Black */
   font-family: "Atten New", "Helvetica", "Arial", sans-serif;
-  font-weight: 400; 
+  /* font-weight: 400;  */
+  font-weight: 300;
   font-size: 16px;
-  font-size: 15px;
+  /* font-size: 15px; */
   color: #fff6e8;
   color: #1b2021;
   color: #000000;
   color: #28282B; /* Matte Black */
+  color: #fff6e8;
   background-color: #acacac;
   background-color: #f7f7f7;
   background-color: #fff6e8;
@@ -100,6 +102,9 @@ body {
   background-color: #eeeade; /* */
   background-color: #fff6e8; /* Use this as a background light mode */
   /* background-color: #FFFFFF; */
+  background-color: #28282B;
+  background-color: #010A13; /* NOTE: Very nice deep black */
+  background-color: #101215;
   padding: 0;
   margin: 0;
 }
@@ -149,20 +154,21 @@ del {
     color: red;
 }
 
+/* NOTE: Proper order is visited, hover, focus, active */
 a {
-  text-decoration-color: #0EB1D2;
-  text-decoration-color: #28282B;
-  text-decoration: #28282B;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 1.5px;
-  text-decoration-style: solid;
-  /* text-decoration-style: wavy; */
-  text-decoration-skip-ink: auto;
+/* color: #28282B; */
+color: #fff6e8;
   /* color: #18272F; */
   /* color: #4059AD; */
   /* color: #0EB1D2; */
-  /* font-weight: 700; */
+  /* font-weight: 400; */
   position: relative;
+
+  text-decoration-color: #fdbf1e;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 1.6px;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
 }
 
 /* Hover effect to try */
@@ -179,16 +185,34 @@ a {
   transition: all 0.3s ease-in-out;
 } */
 
-a:link {
+/* a:link { */
   /* color: #fff6e8; */
   /* text-decoration-color: #fdbf1e; */
   /* text-decoration: underline; */
-}
+/* } */
 
 a:visited {
-    color: #28282B;
+    /* color: #28282B; */
+    /* color: #f75c03; */
+
+    /* text-decoration-color: #0EB1D2; */
+    /* text-decoration-color: #28282B; */
+    /* text-decoration-color: #f75c03; */
+    text-decoration-color: #fdbf1e;
+    text-decoration-thickness: 0.125em;
+    text-underline-offset: 1.5px;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
   /* color: #fff6e8; */
   /* text-decoration-color: #fdbf1e; */
+}
+
+a:hover {
+    /* color: #28282B; */
+  color: #f75c03;
+  /* color: #fdbf1e; */
+  /* color: #f7f7f7; */
+  /* text-decoration: none; */
 }
 
 a:focus {
@@ -200,13 +224,7 @@ a:focus {
   /* text-decoration-line: underline; */
 }
 
-a:hover {
-    color: #28282B;
-  /* color: #f75c03; */
-  /* color: #fdbf1e; */
-  /* color: #f7f7f7; */
-  /* text-decoration: none; */
-}
+
 
 /* Hover effect to try */
 /* a:hover::before {
