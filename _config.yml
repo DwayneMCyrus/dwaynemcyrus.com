@@ -43,6 +43,10 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  - scope:
+      path: "_samples/**/*.md"
+    values:
+      layout: "sample"
 
 plugins:
   - jekyll-feed

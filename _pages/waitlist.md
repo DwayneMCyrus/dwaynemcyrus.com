@@ -5,22 +5,20 @@ permalink: /waitlist
 ---
 For success in life reading is important.
 
-**Note:** Other than a private conversation with me one-on-one, my newsletter waitlist is the only way to find out when I have the to take on new clients applications.
+**Note:** Other than a private conversation with me one-on-one, my newsletter waitlist is the only way to find out when I have available capacity to take on new clients for mentorship.
 
-Unlike many who send out newsletters, I’m not looking for numbers, I’m looking to make positive impact one person at a time. That being said there is an application process that is manually reviewed by me in order for you to begin receiving letters.
+Unlike many who send out newsletters, I’m not looking for numbers, I’m looking to make positive impact and build relationships one person at a time. There is an application process that is manually reviewed by me in order for you to join the waitlist and begin receiving my letters.
 
-Quality over Quantity 
+Quality over quantity.
 
-This newsletter is a waitlist and with that being said it’s not for everyone. It is high moderated and frequently reviewed for inactive people members to be removed. I maintain high engagement with my community and encourage my people to do the same. My letters are a space to facilitate conversations that move people towards authentic living. 
+My community is of Voyagers is not for everyone. It is highly moderated and frequently reviewed to filter out inactive members. I maintain high engagement and encourage you to do the sameEM DASH recovery work is not a solo activity. The space I maintain is founded on privacy, empathy, and trust in order to facilitate conversations that move you towards authentic living. 
 
-That means I write back and have meaningful exchanges with those who have questions, comments, and curiosities about the letters I sent out.
-
-Do not apply if…
-- If you're not ready to invest your time and energy in long-term inner work
-- If you're looking for someone to fix your life for you and with minimal effort on your
-- If you’re unwilling to confront difficult emotions and experiences (your pain)
-- If you’re looking to receive shortcuts and quick fixes to life’s challenges 
-- Not ready and willing to share some of your story with me privately 
+**Do not apply** if you are…
+- Not ready to invest your time and energy in long-term inner work.
+- Looking for someone to fix your life for you and with minimal effort on your part.
+- Unwilling to confront difficult emotions and experiences EM DASH your pain.
+- Expecting to receive shortcuts and quick fixes to your life’s challenges.
+- Not prepared to take the risk, get vulnerable, and  share your story.
 
 Seriously, do not apply if you see yourself in any of the above it will be a waste of both your and my time. 
 
@@ -28,20 +26,17 @@ Now, if you’re ready to…
 - Heal emotional wounds from trauma and reclaim control over your life.
 - Develop emotional resilience and break free from self-sabotaging patterns that no longer serve you.
 - Set and maintain functional boundaries in your relationships with yourself and others
-- Live with intention and design a life that honors your true self.
-- ~~Be heard, guided, and pushed forward into the deep end that is the work.~~
+- Be guided and pushed to live with intention and design a life that honours your true self.
 
 I invite you to apply as I would love to learn more about your story and find ways where I can help guide you forward as a fellow Voyager.
 
-Your application can take between 2-5 days to be processed by me as I work through the ever growing list. If you do not hear back from me after a week your application has been rejected. I do my best to give a reason why you have been rejected, but too many people simply do not read and for that I do not respond.
+Your application can take between 2-5 days to be processed as I work through the list manually one at a time. Your patience and understanding is greatly appreciated.
 
 What to expect once you are in…
-- Insights on emotional mastery, boundary setting, and personal resilience
-- Early access announcements to limited mentorship spots and priority on the waitlist
-- Proven strategies for living life on your terms and reclaiming your emotional sovereignty
-- Direct access to me via email for any comments, questions, and curiosities.
-- [ ] Add your newsletter breakdown of content schedule here.
+- A weekly schedule of letters (Deep Sundays, Inspired Wednesdays, and Friday Reflections), with the occasional extra email.
+- Insights on trauma recovery, relationship boundaries and emotional mastery with direct access to me via email for any comments, questions, and curiosities. 
+- Access announcements to open mentorship spots, exclusive workshops, periodic invitations to the private Telegram group.
 
-If you feel ready to embrace the work take the first step and signup with the form below to apply.
+If you feel ready to embrace the work with me and take the next step, signup with the form below to apply.
 
 <div>{% include waitlist-form.html %}</div>
