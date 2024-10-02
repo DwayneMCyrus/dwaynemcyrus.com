@@ -22,21 +22,23 @@ My community is of Voyagers is not for everyone. It is highly moderated and freq
 
 Seriously, do not apply if you see yourself in any of the above it will be a waste of both your and my time. 
 
-Now, if you’re ready to…
+Now, **if you’re ready** to…
 - Heal emotional wounds from trauma and reclaim control over your life.
 - Develop emotional resilience and break free from self-sabotaging patterns that no longer serve you.
-- Set and maintain functional boundaries in your relationships with yourself and others
-- Be guided and pushed to live with intention and design a life that honours your true self.
+- Set and maintain functional boundaries in your relationships with yourself and others.
+- Be guided and held accountable to living with the intention of honouring your true self.
 
-I invite you to apply as I would love to learn more about your story and find ways where I can help guide you forward as a fellow Voyager.
+I invite you to apply as I would love to learn more about your story and find ways to help you navigate the challenges of life as a fellow Voyager.
 
-Your application can take between 2-5 days to be processed as I work through the list manually one at a time. Your patience and understanding is greatly appreciated.
+Your application can take between 2-5 days to be processed as I work through the list manually one at a time.
 
-What to expect once you are in…
+What to expect once you're in…
 - A weekly schedule of letters (Deep Sundays, Inspired Wednesdays, and Friday Reflections), with the occasional extra email.
-- Insights on trauma recovery, relationship boundaries and emotional mastery with direct access to me via email for any comments, questions, and curiosities. 
-- Access announcements to open mentorship spots, exclusive workshops, periodic invitations to the private Telegram group.
+- Insights on emotional mastery, trauma recovery, and relationship boundaries with direct access to me via email for any comments, questions, and curiosities. 
+- Announcements for open mentorship spots, exclusive workshops, and periodic invitations to the private Telegram group.
 
-If you feel ready to embrace the work with me and take the next step, signup with the form below to apply.
+If you feel ready to embrace the work with me, take the next step and complete the form below to apply.
 
 <div>{% include waitlist-form.html %}</div>
+
+To learn about how I serve my community [[service|click here]].

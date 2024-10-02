@@ -4,11 +4,17 @@
 
 Sunday: Deep insights and lesson for the week.
 Monday:
-Tuesday: 
-Wednesday: Motivation and inspiration to keep going
+Tuesday: Motivation and inspiration to keep going
 Thursday:
 Friday:  Related reflection from a personal story
 Saturday:
+
+
+A regular schedule (Deep Sundays, Inspired Wednesdays, and Friday Reflections) of letters each week with the occasional extra email.
+Insights on trauma recovery, relationship boundaries and emotional mastery with direct access to me via email for any comments, questions, and curiosities. 
+Access announcements to open mentorship spots, exclusive workshops, periodic invitations to the private Telegram group.
+
+Wednesday: Motivation and inspiration to keep 
 
 
 A regular schedule (Deep Sundays, Inspired Wednesdays, and Friday Reflections) of letters each week with the occasional extra email.

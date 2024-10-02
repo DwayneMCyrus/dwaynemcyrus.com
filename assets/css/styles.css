@@ -111,22 +111,24 @@ body {
 
 header {
   padding: 20px 0;
+
 }
 
 main {
   padding: 20px 0;
-  margin: 0 auto;
+  margin: 0 auto 24px;
   max-width: 576px;
   /* max-width: 504px; */
 }
 
 footer {
   padding: 20px 0;
+  margin: 24px 0 0 0;
 }
 
 h2 {
   font-size: 28px;
-  margin: 0px 24px 8px;
+  /* margin: 0px 24px 8px; */
   line-height: 1.25;
 }
 h3 {
@@ -142,6 +144,10 @@ p {
   margin: 1.35em 24px;
   max-width: 480px;
 }
+
+/* p > ul {
+bottom-margin: ;
+} */
 
 ul {
   /* font-weight: 400; */
@@ -220,9 +226,11 @@ a:visited {
 a:hover {
     /* color: #28282B; */
   color: #f75c03;
-  /* color: #fdbf1e; */
+  color: #fdbf1e;
   /* color: #f7f7f7; */
   /* text-decoration: none; */
+  text-decoration-thickness: 0em;
+  /* font-weight: 500; */
 }
 
 a:focus {
@@ -355,18 +363,18 @@ code {
 .legal-stuff a:focus {
   color: #acacac;
   /* color: #515856; */
-  text-decoration-line: overline;
-  text-decoration-color: #fdbf1e;
+  text-decoration-line: none;
+  /* text-decoration-color: #fdbf1e; */
 }
 .legal-stuff a:hover {
   color: #acacac;
   /* color: #515856; */
-  text-decoration-line: underline;
-  text-decoration-color: #fdbf1e;
+  text-decoration-line: none;
+  /* text-decoration-color: #fdbf1e; */
 }
 .legal-stuff a:active {
   color: #acacac;
   /* color: #515856; */
-  text-decoration-line: overline;
-  text-decoration-color: #fdbf1e;
+  text-decoration-line: none;
+  /* text-decoration-color: #fdbf1e; */
 }
