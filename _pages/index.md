@@ -1,9 +1,14 @@
 ---
-layout: default
+layout: home
 title: Home
 permalink: /
 my_number: 5
 ---
+This is a list of bidirectional wiki links:
+- [[about|This is in the _pages/about.md]]
+- [[youR fIrst notE]]   
+
+***
 They call me Cyrus — Artist. Writer. Mentor.
 
 I guide courageous men and women toward emotional sovereignty and intentional living especially after trauma.

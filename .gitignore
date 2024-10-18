@@ -10,3 +10,6 @@ _site/
 
 # Obsidian config
 .obsidian/
+_notes/
+
+.DS_Store
