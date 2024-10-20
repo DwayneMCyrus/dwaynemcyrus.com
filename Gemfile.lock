@@ -190,7 +190,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   nokogiri
-  webrick
 
 RUBY VERSION
    ruby 3.3.5p100

@@ -8,8 +8,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# Obsidian config
+# Obsidian directory
 .obsidian/
-_notes/
+.trash/
+content/private/
 
 .DS_Store

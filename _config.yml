@@ -1,6 +1,6 @@
 title:               Dwayne's digital garden
-include:             ['_pages']
-exclude:             ['_includes/notes_graph.json','_includes/docs_graph.json']
+# include:             ['_pages']
+exclude:             ['_includes/notes_graph.json','_includes/docs_graph.json','content/private/']
 
 # If you are using a host that cannot resolve URLs that do
 # not end with .html (such as Neocities), set this to 'true'.
@@ -17,12 +17,20 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+collections_dir: content
+
 collections:
-  authors:
+  drafts:
+    output: true
+  posts:
     output: true
   notes:
     output: true
     permalink: /:slug
+  authors:
+    output: true
+  pages:
+    output: true
 
 defaults:
   - scope:
@@ -47,8 +55,25 @@ defaults:
       path: "_samples/**/*.md"
     values:
       layout: "sample"
+  - scope:
+      path: "/*.md"
+      type: "pages"
+    values:
+      layout: "post"
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  # - bidirectional_links_generator
+  # - md_highlighter
+  # - open_external_links_in_new_tab
+  # - link_title_processor
+
+# backlinks_enabled_collections:
+#   - _posts
+#   - _pages
+
+# exclude_from_backlinks:
+#   - index.md
+#   - cats.md

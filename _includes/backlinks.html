@@ -1,0 +1,11 @@
+<h3>Backlinks _include</h3>
+{% if page.backlinks and page.backlinks.size > 0 %}
+  <div class="backlinks">
+    <h2>Backlinks</h2>
+    <ul>
+      {% for backlink in page.backlinks %}
+        <li><a href="{{ backlink.url }}">{{ backlink.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

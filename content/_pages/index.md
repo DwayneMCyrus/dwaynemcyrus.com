@@ -1,11 +1,16 @@
 ---
-layout: page
+layout: default
 title: Home
 id: home
-<!-- permalink: / -->
+permalink: /
+backlinkExclude: true
 ---
 
-NOTE: This is a new build from me yay!
+NOTE: This is a new ==build== from me yay!
+
+A test for linkTitles:
+- The link should read "Jillian": [[Jill]]
+- The link should read "Jilly Alias": [[jill|Jilly Alias]]
 
 # Welcome! 🌱
 
