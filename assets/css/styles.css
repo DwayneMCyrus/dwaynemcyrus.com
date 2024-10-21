@@ -65,6 +65,10 @@ h6 {
   isolation: isolate;
 }
 
+blockquote {
+  border: 2px solid yellow;
+}
+
 /* ********************************************************** */
 /* NO CLASS STUFF */
 
@@ -105,6 +109,7 @@ body {
   background-color: #28282B;
   background-color: #010A13; /* NOTE: Very nice deep black */
   background-color: #101215;
+  /* background-color: #f7f7f7; */
   padding: 0;
   margin: 0;
 }
@@ -377,4 +382,99 @@ code {
   /* color: #515856; */
   text-decoration-line: none;
   /* text-decoration-color: #fdbf1e; */
+}
+
+/* Plugin: Callouts */
+/* Base styles for callouts */
+.callout {
+  border-left: 4px solid;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.callout-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.callout-content {
+  display: block;
+}
+
+.callout.folded .callout-content {
+  display: none;
+}
+
+.callout-info {
+  background-color: #e0f7fa;
+  border-color: #00acc1;
+}
+
+/* Foldable logic */
+.callout.foldable .callout-title {
+  cursor: pointer;
+}
+
+.callout.foldable .callout-title:after {
+  content: "▼";
+  float: right;
+}
+
+.callout.folded .callout-title:after {
+  content: "►";
+}
+
+
+
+/* Basic styling for callouts */
+.callout {
+  border-left: 4px solid #ccc;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.callout.info {
+  border-color: #2c7be5;
+  background-color: #e9f4ff;
+}
+
+.callout.warning {
+  border-color: #f0ad4e;
+  background-color: #fcf8e3;
+}
+
+.callout-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.callout-content {
+  padding-left: 10px;
+}
+
+.invalid-link {
+  color: red;
+  color: #eb5e28;
+  cursor: help;
+}
+
+.external-link {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+
+/* Style for external links using the external-link class */
+a.external-link::after {
+  content: " \2197";  /* Unicode for upward-right arrow */
+  margin-left: 0px;   /* Add some space between the link text and the icon */
+  font-size: 0.9em;   /* Slightly smaller icon for better alignment */
+  vertical-align: top; /* Align the icon vertically */
+}
+
+/* Optional: Add hover effect for external links */
+a.external-link:hover {
+  text-decoration: underline;
+  color: red;  /* Change color on hover, optional */
 }

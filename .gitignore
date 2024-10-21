@@ -1,3 +1,6 @@
+/temp
+/tmp
+
 # Generated website directory
 _site/
 
@@ -8,5 +11,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# Obsidian config
+# Obsidian directory
 .obsidian/
+.trash/
+content/private/
+
+.DS_Store

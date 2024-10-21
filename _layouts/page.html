@@ -5,3 +5,12 @@ layout: default
 <content>
   {{ content }}
 </content>
+
+{% if page.backlinks %}
+  <h3>Backlinks</h3>
+  <ul>
+    {% for backlink in page.backlinks %}
+      <li><a href="{{ backlink.url }}">{{ backlink.data.title || backlink.basename }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
