@@ -1,3 +1,4 @@
+# Temporary files for dev
 /temp
 /tmp
 
@@ -16,4 +17,5 @@ _site/
 .trash/
 content/private/
 
+# macOS
 .DS_Store
