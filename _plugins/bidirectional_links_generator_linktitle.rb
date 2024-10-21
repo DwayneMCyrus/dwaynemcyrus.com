@@ -57,7 +57,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       current_doc.content = current_doc.content.gsub(
         /\[\[([^\]]+)\]\]/i,
         <<~HTML.delete("\n")
-          <span title='This link is broken or has been made private.' class='invalid-link'>
+          <span title='This link doesnot yet exist or has been made private.' class='invalid-link'>
             \\1
           </span>
         HTML

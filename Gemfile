@@ -16,5 +16,5 @@ end
 
 gem "nokogiri"
 
-# This you may not really need especially since you don't get what it actually does. 
+# This (below) you may not really need especially since you don't get what it actually does. 
 # gem "webrick"

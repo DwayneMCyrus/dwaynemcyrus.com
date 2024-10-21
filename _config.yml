@@ -59,7 +59,7 @@ defaults:
       path: "/*.md"
       type: "pages"
     values:
-      layout: "post"
+      layout: "page"
 
 plugins:
   - jekyll-feed
