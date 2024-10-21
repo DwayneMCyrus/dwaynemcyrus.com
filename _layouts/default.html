@@ -5,10 +5,17 @@
     <h2>Layout DEFAULT</h2>
     {% include navigation.html %}
     <div class="content-wrapper">
+
+
+
       <header>
       </header>
       <!-- <aside></aside> -->
-      <main aria-role="main">{{ content }}</main>
+      <main aria-role="main">
+        <content>
+        {{ content }}
+      </content>
+      </main>
       <!-- <aside></aside> -->
       <h2>Backlinks Exclude hey</h2>
       <side style="font-size: 0.9em">
@@ -78,6 +85,16 @@
   </li>
   {% endfor %}
 </ul>
+
+<h2>Includes Below</h2>
+{% include link-previews.html wrapperQuerySelector="content" %}
+
+{% include notes_graph.html %}
+
+{% include backlinks.html %}
+
+
+
 
 
   </body>

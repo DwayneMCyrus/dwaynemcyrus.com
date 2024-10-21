@@ -452,3 +452,29 @@ code {
 .callout-content {
   padding-left: 10px;
 }
+
+.invalid-link {
+  color: red;
+  color: #eb5e28;
+  cursor: help;
+}
+
+.external-link {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+
+/* Style for external links using the external-link class */
+a.external-link::after {
+  content: " \2197";  /* Unicode for upward-right arrow */
+  margin-left: 0px;   /* Add some space between the link text and the icon */
+  font-size: 0.9em;   /* Slightly smaller icon for better alignment */
+  vertical-align: top; /* Align the icon vertically */
+}
+
+/* Optional: Add hover effect for external links */
+a.external-link:hover {
+  text-decoration: underline;
+  color: red;  /* Change color on hover, optional */
+}

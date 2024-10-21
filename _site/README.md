@@ -12,14 +12,18 @@
 - [ ] Header anchors
 - [ ] Table of contents with highlighting.
 - [ ] Link previews
-- [ ] Arrow icon for external links
+- [x] Arrow icon for external links
 - [ ] opening all external links in a new tab
 - [ ] Obsidian callouts
 - [ ] Obsidian CMS implemented
 - [ ] Mardown linkTitles to be rendered like Hugo does automatically on build
+- [ ] Need to create a last modified plugin that writes the the markdown files, but prioritizes the dateUpdated value but also renders to the 'growth date'
+- [ ] Make the notes graph only show what it's linked to, show in the sidebar like Obsidian
+- [ ] Fix the link-preview _includes to actually function
 
 #### Bugs
 - [ ] Link previews are not working on the home page
 - [ ] Link previews not functioning outside of `_notes` so cross collections
+- [ ] external-link class is being used twice by plugin
 
 For more o the markdown process kramdown https://kramdown.gettalong.org/quickref.html

@@ -11,6 +11,18 @@ NOTE: This is a new ==build== from me yay!
 A test for linkTitles:
 - The link should read "Jillian": [[Jill]]
 - The link should read "Jilly Alias": [[jill|Jilly Alias]]
+- The link shoud read the aliase over the link title: [[j.smith]]
+
+[Markdown syntax](https://www.markdownguide.org/getting-started/) < This should open in new tab.
+
+This should say [[invalid link]] when i check the code.
+
+***
+
+<h1>{{ "Hello Dwayne!" | downcase }}</h1>
+    <p>front matter `my_number`: {{ page.my_number }}</p>
+
+  
 
 # Welcome! 🌱
 
