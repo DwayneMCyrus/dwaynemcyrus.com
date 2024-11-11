@@ -1,6 +1,8 @@
 ---
+layout: default
 title: Home
 id: home
+permalink: /
 backlinkExclude: true
 ---
 
