@@ -22,6 +22,17 @@ collections_dir: content
 collections:
   drafts:
     output: true
+  essays: 
+    output: true
+    permalink: /essays/:slug
+    layout: default
+  notes: 
+    output: true
+    permalink: /notes/:slug
+    layout: note
+  pages:
+    output: true
+    layout: default
   posts:
     output: true
   notes:
@@ -29,10 +40,19 @@ collections:
     permalink: /:slug
   authors:
     output: true
-  pages:
-    output: true
+
 
 defaults:
+  # - scope:
+  #     path: ""
+  #     type: "notes"
+  #   values:
+  #     layout: "note"
+  # - scope:
+  #     path: ""
+  #     type: "essays"
+  #   values:
+  #     layout: ""
   - scope:
       path: ""
       type: "authors"
@@ -49,12 +69,9 @@ defaults:
       layout: "default"
   - scope:
       path: "_notes/**/*.md"
+      type: "notes"
     values:
-      layout: "note"
-  - scope:
-      path: "_samples/**/*.md"
-    values:
-      layout: "sample"
+      layout: "money"
   - scope:
       path: "/*.md"
       type: "pages"

@@ -1,0 +1,10 @@
+{% if page.outgoing_links %}
+  <div class="outgoing-links">
+    <h3>Outgoing Links</h3>
+    <ul>
+      {% for link in page.outgoing_links %}
+        <li><a href="{{ link }}">{{ link }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

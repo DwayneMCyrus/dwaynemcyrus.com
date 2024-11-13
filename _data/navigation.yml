@@ -6,13 +6,17 @@
 #   link: /blog.html
 # - name: Staff
 #   link: /staff.html
-# - name: Notes
-#   link: /notes.html
+- name: Notes
+  link: /notes.html
+- name: Essays
+  link: /essays.html
 # - name: Contact
 #   link: /contact.html
 - name: Waitlist
   link: /waitlist.html
 # - name: First Note
 #   link: /your-first-note.html
-- name: Service
-  link: /service.html
+# - name: Service
+#   link: /service.html
+# - name: Slips
+#   link: /slips.html

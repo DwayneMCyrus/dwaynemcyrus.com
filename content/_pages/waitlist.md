@@ -1,6 +1,5 @@
 ---
-layout: default
-title: The Waitlist
+title: Waitlist
 permalink: /waitlist
 ---
 For success in life reading is important.
@@ -37,8 +36,8 @@ What to expect once you're in…
 - Insights on emotional mastery, trauma recovery, and relationship boundaries with direct access to me via email for any comments, questions, and curiosities. 
 - Announcements for open mentorship spots, exclusive workshops, and periodic invitations to the private Telegram group.
 
-If you feel ready to embrace the work with me, take the next step and complete the form below to apply.
+If you feel ready to embrace the work, take the next step and complete the form below to apply.
 
 <div>{% include waitlist-form.html %}</div>
 
-To learn about how I serve my community [[service|click here]].
+<!-- To learn about how I serve my community [[service|click here]]. -->

@@ -1,6 +1,6 @@
 # Temporary files for dev
-/temp
-/tmp
+temp/
+tmp/
 
 # Generated website directory
 _site/

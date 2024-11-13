@@ -1,19 +1,19 @@
 ---
-CUID: "20241111091339"
+id: "20241111091339"
 date: 2024-11-11T09:13:39
 dateUpdated: ""
 published: true
 growth:
   - Flowering
-title: Walled Garden Cultivate Wives
+title: A Walled Garden Cultivates the Wife
 collection:
-  - Mini-Essays
+  - Essays
 tags:
   - marriage
   - leadership
   - protection
 essayType:
-  - Classic
+  - Mini-Classic
 relatedNotes:
   - "[[Build her a walled garden for her growth and safety]]"
 ---
@@ -24,5 +24,3 @@ This is not a physical structure, it is emotional. You must develop unwavering t
 The garden must be thought of as the environment in which your wife lives and grows within safely. The seeds you plant are the emotional investments you make into her wants and needs. You care for these seeds by paying attention and being attentive. Attention is what you must invest in order to receive a bountiful harvest year after year. 
 
 You must look at yourself as a farmer cultivating her emotional landscape and adjusting the walls to ensure the safety and growth of your wife.
-
-

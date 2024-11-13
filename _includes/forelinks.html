@@ -1,0 +1,13 @@
+{% if page.forelinks and page.forelinks.size > 0 %}
+  <h3>Outgoing Links</h3>
+  <ul>
+    {% for link in page.forelinks %}
+      <li>
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        <p>{{ link.summary | strip_html | truncatewords: 30 }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No outgoing links available.</p>
+{% endif %}

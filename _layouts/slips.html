@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    <div class="content-wrapper">
+    <header>
+    </header>
+    <!-- <aside></aside> -->
+    <main aria-role="main">
+      <content>
+        {{ content }}
+
+<ul>
+    {% for slip in site.slips %}
+<li>
+    <a class="internal-link" href="{{ slip.url }}">
+        {{ slip.title }}
+      </a>
+</li>
+{% endfor %}
+</ul>
+
+
+      </content>
+
+    </main>
+    <!-- <aside></aside> -->
+    <footer>
+      {% include navigation.html %}
+      {% include footer.html %}
+    </footer>
+    </div>
+
+  </body>
+  </html>

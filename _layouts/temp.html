@@ -24,3 +24,44 @@
     {% include link-previews.html wrapperQuerySelector="content" %}
   </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- Backlinks -->
+<hr>
+
+<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
+
+{% include link-previews.html wrapperQuerySelector="content" %}
+
+{% include notes_graph.html %}
+
+{% include backlinks.html %}
+
+<hr>
+
+
+{% if page.backlinks %}
+<h3>Backlinks 2</h3>
+<ul>
+  {% for backlink in page.backlinks %}
+    <li><a href="{{ backlink.url }}">{{ backlink.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+<hr>
+{% if page.forward_links %}
+<h3>Forward Links</h3>
+<ul>
+  {% for forward_link in page.forward_links %}
+    <li><a href="{{ forward_link.url }}">{{ forward_link.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<hr>

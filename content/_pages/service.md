@@ -1,10 +1,8 @@
 ---
-layout: home
+layout: default
 title: Service
 permalink: /service
 ---
-Website Copy - Service
-
 Your life is my work.
 
 Reading through this service description is a requirement to working together. Please feel free to stop reading right now if you find this task too much effort on your part—you’re not a good fit for me.

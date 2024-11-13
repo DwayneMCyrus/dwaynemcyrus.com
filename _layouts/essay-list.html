@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    <div class="content-wrapper">
+    <header>
+    </header>
+    <!-- <aside></aside> -->
+    <main aria-role="main">
+      <content>
+        {{ content }}
+
+<ul>
+    {% for essay in site.essays %}
+<li>
+    <a class="internal-link" href="{{ essay.url }}">
+        {{ essay.title }}
+      </a>
+</li>
+{% endfor %}
+</ul>
+
+
+      </content>
+    </main>
+    <!-- <aside></aside> -->
+    <footer>
+      {% include navigation.html %}
+      {% include footer.html %}
+    </footer>
+    </div>
+  </body>
+  </html>
