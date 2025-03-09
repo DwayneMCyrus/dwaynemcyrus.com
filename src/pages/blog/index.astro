@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogPost from '../../components/BlogPost.astro';
+
+const pageTitle = 'Blog List Page';
+const allPosts = await getCollection("blog");
+---
+<BaseLayout pageTitle={pageTitle}>
+    <h1>{pageTitle}</h1>
+    <p>This is some text just to fill the space of the blog list page.</p>
+    <ul>
+    {
+      allPosts.map((post) => (
+        // <BlogPost url={post.url} title={post.frontmatter.title} />)}
+        <BlogPost url={`/blog/${post.id}/`} title={post.data.title} />
+      ))
+    }
+  </ul>
+
+  <p>alt</p>
+
+</BaseLayout>

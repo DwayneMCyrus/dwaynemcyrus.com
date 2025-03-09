@@ -1,16 +1,28 @@
 ---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
+const posts = await getCollection('blog');
+const notes = await getCollection('notes');
+const pageTitle = 'Index/Home Page';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro Garden Build</h1>
-	</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+<h1>{pageTitle}</h1>
+<p>This is some text just to fill the space of the home page.</p>
+<p>Here's a link to the <a href="/test/markdown/">sample markdown</a> sheet.</p>
+
+<h1>My posts</h1>
+<ul>
+  {posts.map(post => (
+    <li><a href={`/blog/${post.id}`}>{post.data.title}</a></li>
+  ))}
+</ul>
+
+<h1>My Notes</h1>
+<ul>
+  {notes.map(post => (
+    <li><a href={`/notes/${post.id}`}>{post.data.title}</a></li>
+  ))}
+</ul>
+</BaseLayout>

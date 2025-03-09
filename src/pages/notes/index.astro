@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import NotesPost from '../../components/NotesPost.astro';
+
+const pageTitle = 'Notes Index';
+const allPosts = await getCollection("notes");
+---
+<BaseLayout pageTitle={pageTitle}>
+<h1>{pageTitle}</h1>
+<p>This is some text just to fill the space of the notes index page.</p>
+<ul>
+    {
+        allPosts.map((post) => (
+            <NotesPost url={`/notes/${post.id}/`} title={post.data.title} />
+        ))
+    }
+</ul>
+</BaseLayout>

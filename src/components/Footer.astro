@@ -1,0 +1,16 @@
+---
+const platformAlt = "github";
+const usernameAlt = "dwaynemcyrus";
+import Socials from './Socials.astro';
+---
+
+<footer>
+    <br>
+  <p>Learn more about my projects on <a href={`https://www.${platformAlt}.com/${usernameAlt}`}>{platformAlt}</a>!</p>
+
+  <p>Socials: 
+  <Socials platform="twitter" username="dwaynemcyrus" />
+  <Socials platform="github" username="withastro" />
+  <Socials platform="youtube" username="dwaynemcyrus" />
+</p>
+</footer>
